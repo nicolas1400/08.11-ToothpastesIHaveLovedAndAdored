@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3738F7AC1999199B007FC348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7AB1999199B007FC348 /* Foundation.framework */; };
+		3738F7AE1999199B007FC348 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7AD1999199B007FC348 /* CoreGraphics.framework */; };
+		3738F7B01999199B007FC348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7AF1999199B007FC348 /* UIKit.framework */; };
+		3738F7B61999199B007FC348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7B41999199B007FC348 /* InfoPlist.strings */; };
+		3738F7B81999199B007FC348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F7B71999199B007FC348 /* main.m */; };
+		3738F7BC1999199B007FC348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F7BB1999199B007FC348 /* AppDelegate.m */; };
+		3738F7BF1999199B007FC348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7BD1999199B007FC348 /* Main.storyboard */; };
+		3738F7C21999199B007FC348 /* AdoredToothpastesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F7C11999199B007FC348 /* AdoredToothpastesViewController.m */; };
+		3738F7C41999199B007FC348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7C31999199B007FC348 /* Images.xcassets */; };
+		3738F7CB1999199B007FC348 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7CA1999199B007FC348 /* XCTest.framework */; };
+		3738F7CC1999199B007FC348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7AB1999199B007FC348 /* Foundation.framework */; };
+		3738F7CD1999199B007FC348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738F7AF1999199B007FC348 /* UIKit.framework */; };
+		3738F7D51999199B007FC348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7D31999199B007FC348 /* InfoPlist.strings */; };
+		3738F7D71999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F7D61999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.m */; };
+		3738F7E219991F87007FC348 /* ToothpastesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738F7E119991F87007FC348 /* ToothpastesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3738F7CE1999199B007FC348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3738F7A01999199B007FC348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738F7A71999199B007FC348;
+			remoteInfo = ToothpastesIHaveLovedAndAdored;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3738F7A81999199B007FC348 /* ToothpastesIHaveLovedAndAdored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToothpastesIHaveLovedAndAdored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738F7AB1999199B007FC348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3738F7AD1999199B007FC348 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3738F7AF1999199B007FC348 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3738F7B31999199B007FC348 /* ToothpastesIHaveLovedAndAdored-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToothpastesIHaveLovedAndAdored-Info.plist"; sourceTree = "<group>"; };
+		3738F7B51999199B007FC348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3738F7B71999199B007FC348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3738F7B91999199B007FC348 /* ToothpastesIHaveLovedAndAdored-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToothpastesIHaveLovedAndAdored-Prefix.pch"; sourceTree = "<group>"; };
+		3738F7BA1999199B007FC348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3738F7BB1999199B007FC348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3738F7BE1999199B007FC348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3738F7C01999199B007FC348 /* AdoredToothpastesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdoredToothpastesViewController.h; sourceTree = "<group>"; };
+		3738F7C11999199B007FC348 /* AdoredToothpastesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdoredToothpastesViewController.m; sourceTree = "<group>"; };
+		3738F7C31999199B007FC348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3738F7C91999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpastesIHaveLovedAndAdoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738F7CA1999199B007FC348 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3738F7D21999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToothpastesIHaveLovedAndAdoredTests-Info.plist"; sourceTree = "<group>"; };
+		3738F7D41999199B007FC348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3738F7D61999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToothpastesIHaveLovedAndAdoredTests.m; sourceTree = "<group>"; };
+		3738F7E019991F87007FC348 /* ToothpastesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothpastesTableViewController.h; sourceTree = "<group>"; };
+		3738F7E119991F87007FC348 /* ToothpastesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothpastesTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3738F7A51999199B007FC348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7AE1999199B007FC348 /* CoreGraphics.framework in Frameworks */,
+				3738F7B01999199B007FC348 /* UIKit.framework in Frameworks */,
+				3738F7AC1999199B007FC348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738F7C61999199B007FC348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7CB1999199B007FC348 /* XCTest.framework in Frameworks */,
+				3738F7CD1999199B007FC348 /* UIKit.framework in Frameworks */,
+				3738F7CC1999199B007FC348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3738F79F1999199B007FC348 = {
+			isa = PBXGroup;
+			children = (
+				3738F7B11999199B007FC348 /* ToothpastesIHaveLovedAndAdored */,
+				3738F7D01999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests */,
+				3738F7AA1999199B007FC348 /* Frameworks */,
+				3738F7A91999199B007FC348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3738F7A91999199B007FC348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7A81999199B007FC348 /* ToothpastesIHaveLovedAndAdored.app */,
+				3738F7C91999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3738F7AA1999199B007FC348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7AB1999199B007FC348 /* Foundation.framework */,
+				3738F7AD1999199B007FC348 /* CoreGraphics.framework */,
+				3738F7AF1999199B007FC348 /* UIKit.framework */,
+				3738F7CA1999199B007FC348 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3738F7B11999199B007FC348 /* ToothpastesIHaveLovedAndAdored */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7BA1999199B007FC348 /* AppDelegate.h */,
+				3738F7BB1999199B007FC348 /* AppDelegate.m */,
+				3738F7BD1999199B007FC348 /* Main.storyboard */,
+				3738F7E019991F87007FC348 /* ToothpastesTableViewController.h */,
+				3738F7E119991F87007FC348 /* ToothpastesTableViewController.m */,
+				3738F7C01999199B007FC348 /* AdoredToothpastesViewController.h */,
+				3738F7C11999199B007FC348 /* AdoredToothpastesViewController.m */,
+				3738F7C31999199B007FC348 /* Images.xcassets */,
+				3738F7B21999199B007FC348 /* Supporting Files */,
+			);
+			path = ToothpastesIHaveLovedAndAdored;
+			sourceTree = "<group>";
+		};
+		3738F7B21999199B007FC348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7B31999199B007FC348 /* ToothpastesIHaveLovedAndAdored-Info.plist */,
+				3738F7B41999199B007FC348 /* InfoPlist.strings */,
+				3738F7B71999199B007FC348 /* main.m */,
+				3738F7B91999199B007FC348 /* ToothpastesIHaveLovedAndAdored-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3738F7D01999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7D61999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.m */,
+				3738F7D11999199B007FC348 /* Supporting Files */,
+			);
+			path = ToothpastesIHaveLovedAndAdoredTests;
+			sourceTree = "<group>";
+		};
+		3738F7D11999199B007FC348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3738F7D21999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests-Info.plist */,
+				3738F7D31999199B007FC348 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3738F7A71999199B007FC348 /* ToothpastesIHaveLovedAndAdored */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738F7DA1999199B007FC348 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdored" */;
+			buildPhases = (
+				3738F7A41999199B007FC348 /* Sources */,
+				3738F7A51999199B007FC348 /* Frameworks */,
+				3738F7A61999199B007FC348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToothpastesIHaveLovedAndAdored;
+			productName = ToothpastesIHaveLovedAndAdored;
+			productReference = 3738F7A81999199B007FC348 /* ToothpastesIHaveLovedAndAdored.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3738F7C81999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738F7DD1999199B007FC348 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdoredTests" */;
+			buildPhases = (
+				3738F7C51999199B007FC348 /* Sources */,
+				3738F7C61999199B007FC348 /* Frameworks */,
+				3738F7C71999199B007FC348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738F7CF1999199B007FC348 /* PBXTargetDependency */,
+			);
+			name = ToothpastesIHaveLovedAndAdoredTests;
+			productName = ToothpastesIHaveLovedAndAdoredTests;
+			productReference = 3738F7C91999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3738F7A01999199B007FC348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Semenas";
+				TargetAttributes = {
+					3738F7C81999199B007FC348 = {
+						TestTargetID = 3738F7A71999199B007FC348;
+					};
+				};
+			};
+			buildConfigurationList = 3738F7A31999199B007FC348 /* Build configuration list for PBXProject "ToothpastesIHaveLovedAndAdored" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3738F79F1999199B007FC348;
+			productRefGroup = 3738F7A91999199B007FC348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3738F7A71999199B007FC348 /* ToothpastesIHaveLovedAndAdored */,
+				3738F7C81999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3738F7A61999199B007FC348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7C41999199B007FC348 /* Images.xcassets in Resources */,
+				3738F7B61999199B007FC348 /* InfoPlist.strings in Resources */,
+				3738F7BF1999199B007FC348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738F7C71999199B007FC348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7D51999199B007FC348 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3738F7A41999199B007FC348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7E219991F87007FC348 /* ToothpastesTableViewController.m in Sources */,
+				3738F7C21999199B007FC348 /* AdoredToothpastesViewController.m in Sources */,
+				3738F7BC1999199B007FC348 /* AppDelegate.m in Sources */,
+				3738F7B81999199B007FC348 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738F7C51999199B007FC348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738F7D71999199B007FC348 /* ToothpastesIHaveLovedAndAdoredTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3738F7CF1999199B007FC348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738F7A71999199B007FC348 /* ToothpastesIHaveLovedAndAdored */;
+			targetProxy = 3738F7CE1999199B007FC348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3738F7B41999199B007FC348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738F7B51999199B007FC348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3738F7BD1999199B007FC348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738F7BE1999199B007FC348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3738F7D31999199B007FC348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3738F7D41999199B007FC348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3738F7D81999199B007FC348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3738F7D91999199B007FC348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3738F7DB1999199B007FC348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3738F7DC1999199B007FC348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3738F7DE1999199B007FC348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToothpastesIHaveLovedAndAdored.app/ToothpastesIHaveLovedAndAdored";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdoredTests/ToothpastesIHaveLovedAndAdoredTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3738F7DF1999199B007FC348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToothpastesIHaveLovedAndAdored.app/ToothpastesIHaveLovedAndAdored";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdoredTests/ToothpastesIHaveLovedAndAdoredTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3738F7A31999199B007FC348 /* Build configuration list for PBXProject "ToothpastesIHaveLovedAndAdored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738F7D81999199B007FC348 /* Debug */,
+				3738F7D91999199B007FC348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738F7DA1999199B007FC348 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738F7DB1999199B007FC348 /* Debug */,
+				3738F7DC1999199B007FC348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738F7DD1999199B007FC348 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdoredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738F7DE1999199B007FC348 /* Debug */,
+				3738F7DF1999199B007FC348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3738F7A01999199B007FC348 /* Project object */;
+}
